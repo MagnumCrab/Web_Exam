@@ -15,3 +15,12 @@ document.querySelector(".form__auth-btn").onclick = function () {
   }
   return true;
 };
+
+let menuBtn = document.querySelector('.menu-btn');
+let menuEl = document.querySelector('.menu');
+let body = document.body;
+menuBtn.addEventListener('click', function () {
+  menuBtn.classList.toggle('active');
+  menuEl.classList.toggle('active');
+  body.classList.toggle('hide__scroll')
+})
