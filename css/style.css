@@ -432,7 +432,7 @@ body {
 .companies__descr::after {
   position: absolute;
   content: "";
-  width: 144px;
+  width: 140px;
   height: 2px;
   background: #d6d6d6;
   top: 50%;

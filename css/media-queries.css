@@ -1,16 +1,29 @@
-@media (max-width: 1600px) {
-  .header__content {
-    margin: 0 20px;
-    margin-bottom: 78px;
-  }
-}
-
 @media (min-width: 376px) and (max-width: 1024px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .header__top {
+    position: relative;
+    max-width: 100%;
+    gap: 30px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 16px;
+    padding-bottom: 5%;
+  }
+  
   .features {
     padding-bottom: 71px;
   }
 
   .features__row {
+    width: 100%;
     column-gap: 0;
     gap: 35px;
   }
@@ -21,6 +34,15 @@
 
   .header__content {
     margin: 0 20px;
+    margin-bottom: 78px;
+  }
+
+  .header__row {
+    padding-top: 0;
+  }
+
+  .menu {
+    margin: auto;
   }
 
   .automated__row {
@@ -52,7 +74,7 @@
   .price__card {
     gap: 40px;
   }
-
+  
   .companies__column-inner {
     padding: 36px 30px;
   }
@@ -102,17 +124,9 @@
   }
 
   .companies__row {
+    width: 100%;
     flex-direction: column;
     align-items: center;
-  }
-
-  .header__top {
-    gap: 30px;
-    padding-top: 50px;
-    display: flex;
-    font-size: 16px;
-    align-items: center;
-    flex-direction: column;
   }
 
   .companies__icons {
@@ -120,12 +134,14 @@
     padding: 0 25px;
   }
 
-  .header__row {
-    padding-top: 0;
+  .footer__row {
+    width: 100%;
   }
 
-  .menu {
-    margin: auto;
+  .footer__menu-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 
