@@ -178,8 +178,15 @@
 
   .header__top {
     flex-direction: row;
+    justify-content: space-between;
     padding: 20px;
     width: 100%;
+  }
+
+  .header__logo {
+    margin: 0;
+    max-width: 148px;
+    max-height: 30px;
   }
 
   .sign-burger {
@@ -194,7 +201,7 @@
     font-size: 16px;
     margin-right: 18px ;
   }
-  
+
   .burger-menu {
     display: flex;
     justify-content: flex-end;
@@ -402,7 +409,7 @@
   }
 
   .companies__column-inner {
-    margin-top: 20px;
+    margin-top: 5%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
