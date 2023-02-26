@@ -288,7 +288,7 @@
   }
 
   .header__img {
-    margin: 0px 20px;
+    margin: 0px;
     position: static;
   }
 
@@ -307,7 +307,11 @@
 
   .header__row {
     column-gap: 0px;
+    display: flex;
     flex-direction: column-reverse;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0 20px;
   }
 
   element.style {
